@@ -55,3 +55,20 @@ logs/
 *.tmp
 *.bak
 *.old
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyo
+
+# Test and build artifacts
+.pytest_cache/
+.reports/
+reports_*/
+reports_example/
+test_output/

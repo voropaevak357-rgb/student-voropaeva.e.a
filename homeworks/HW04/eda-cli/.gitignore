@@ -1,0 +1,29 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Виртуальные окружения
+.venv/
+env/
+ENV/
+
+# Кэш Python
+__pycache__/
+*.pyc
+
+# Тесты и отчёты
+.pytest_cache/
+reports/
+reports_example/
+test_output/
+
+# Системные файлы
+.DS_Store
+Thumbs.db

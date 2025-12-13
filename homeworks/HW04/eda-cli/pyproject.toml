@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eda-cli"
+version = "0.1.0"
+description = "EDA CLI tool with API for HW04"
+dependencies = [
+    "pandas>=2.0",
+    "matplotlib>=3.0",
+    "typer>=0.9",
+    "fastapi>=0.100",
+    "uvicorn[standard]>=0.22",
+    "pytest>=7.0",
+    "python-multipart>=0.0.9", 
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "black", "ruff"]
+
+[project.scripts]
+eda-cli = "eda_cli.cli:app"

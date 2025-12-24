@@ -11,13 +11,6 @@ uv sync
 uv run uvicorn eda_cli.api:app --reload --host 0.0.0.0 --port 8000
 
 # Дополнительный эндпоинт
-POST /quality-flags-from-csv
 
-
-## Запуск
-```bash
-uv sync
-uv run uvicorn eda_cli.api:app --reload --port 8000
-
-# Дополнительный эндпоинт
+## Реализован эндпоинт:
 POST /quality-flags-from-csv

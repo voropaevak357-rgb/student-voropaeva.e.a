@@ -1,1 +1,18 @@
-{}
+{
+    "dataset_01": {
+        "model": "DBSCAN",
+        "eps": 1.7,
+        "min_samples": 5,
+        "selection_criterion": "max_silhouette"
+    },
+    "dataset_02": {
+        "model": "KMeans",
+        "n_clusters": 2,
+        "selection_criterion": "max_silhouette"
+    },
+    "dataset_03": {
+        "model": "KMeans",
+        "n_clusters": 3,
+        "selection_criterion": "max_silhouette"
+    }
+}

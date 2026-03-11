@@ -54,6 +54,7 @@
 - Конфиг лучшей модели: `./artifacts/best_config.json`
 - Кривые лучшего прогона: `./artifacts/figures/curves_best.png`
 - Кривые "плохих LR": `./artifacts/figures/curves_lr_extremes.png`
+- Итоговая test_accuracy (для лучшей модели): **0.8509** 
 
 Короткая сводка:
 

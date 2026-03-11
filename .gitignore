@@ -2,73 +2,62 @@
 # Общие правила игнорирования для репозитория студента
 # ---------------------------------------------------------
 
-# Системные файлы ОС
+# === Системные файлы ОС ===
 .DS_Store
 Thumbs.db
 
-# Конфигурации IDE/редакторов
+# === Конфигурации IDE/редакторов ===
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Виртуальные окружения Python
+# === Виртуальные окружения Python ===
 .venv/
 venv/
 env/
 ENV/
 .conda/
-.venv*/
 
-# Кеши Python и скомпилированные файлы
+# === Кеши Python и скомпилированные файлы ===
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Папки и файлы сборки/дистрибуции (если вдруг появятся)
+# === Папки сборки/дистрибуции ===
 build/
 dist/
 eggs/
 *.egg-info/
 .installed.cfg
 
-# Кеши и артефакты тестов
+# === Кеши и артефакты тестов ===
 .pytest_cache/
 .coverage
 .coverage.*
 htmlcov/
 
-# Журналы
+# === Журналы ===
 *.log
 logs/
 
-# Кеши Jupyter Notebook
+# === Кеши Jupyter Notebook ===
 .ipynb_checkpoints
 
-# Файлы окружения и конфигурации с потенциальными секретами
+# === Файлы окружения с потенциальными секретами ===
 .env
 *.env
 .env.*
 !.env.example
 
-# Разное
+# === Разное ===
 *.tmp
 *.bak
 *.old
-# Virtual environments
-.venv/
-venv/
-env/
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyo
+# === Игнорировать папки с данными (большие файлы датасетов) ===
+**/data/
 
-# Test and build artifacts
-.pytest_cache/
-.reports/
+# === Игнорировать временные папки отчетов (из старых ДЗ) ===
 reports_*/
-reports_example/
 test_output/

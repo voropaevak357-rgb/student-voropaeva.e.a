@@ -14,12 +14,11 @@
     "dropout": 0.0,
     "batchnorm": true
   },
-  "training": {
-    "optimizer": "Adam",
-    "lr": 0.001,
-    "weight_decay": 0,
-    "early_stopping_patience": 5
-  },
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "weight_decay": 0,
+  "batch_size": 64,
+  "epochs": 14,
   "results": {
     "best_val_accuracy": 0.8568262411347518,
     "best_val_loss": 0.433732142051061,

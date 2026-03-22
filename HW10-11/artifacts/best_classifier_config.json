@@ -1,0 +1,39 @@
+{
+  "experiment_id": "C4",
+  "task": "classification",
+  "dataset": {
+    "name": "CIFAR100",
+    "num_classes": 100,
+    "image_size": 32,
+    "train_val_split": "80/20"
+  },
+  "architecture": {
+    "model_type": "SimpleCNN",
+    "pretrained": true
+  },
+  "transforms": {
+    "train": [
+      "RandomHorizontalFlip(p=0.5)",
+      "RandomCrop(32, padding=4)",
+      "ToTensor()",
+      "Normalize(mean=[0.5071, 0.4867, 0.4408], std=[0.2675, 0.2565, 0.2761])"
+    ],
+    "val": [
+      "ToTensor()",
+      "Normalize(mean=[0.5071, 0.4867, 0.4408], std=[0.2675, 0.2565, 0.2761])"
+    ]
+  },
+  "hyperparameters": {
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "batch_size": 32,
+    "epochs": 5,
+    "criterion": "CrossEntropyLoss"
+  },
+  "seed": 42,
+  "results": {
+    "best_val_accuracy": 70.76,
+    "test_accuracy": 70.76
+  },
+  "timestamp": "2026-03-23 00:10:46"
+}

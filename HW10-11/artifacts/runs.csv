@@ -1,0 +1,11 @@
+experiment_id,task,dataset,seed,model_summary,optimizer,lr,epochs_trained,best_val_accuracy,test_accuracy,precision,recall,mean_iou,notes
+,classification,CIFAR100,42,FasterRCNN_ResNet50_FPN,Adam,N/A,5,,46.83,,,,
+,classification,CIFAR100,42,FasterRCNN_ResNet50_FPN,Adam,N/A,1,,0.0392,,,,
+,classification,CIFAR100,42,FasterRCNN_ResNet50_FPN,Adam,N/A,5,,46.83,,,,
+,classification,CIFAR100,42,FasterRCNN_ResNet50_FPN,Adam,N/A,1,,0.0392,,,,
+,classification,CIFAR100,42,FasterRCNN_ResNet50_FPN,Adam,N/A,SimpleCNN,,7.498689544200897,,,,
+,classification,CIFAR100,42,FasterRCNN_ResNet50_FPN,Adam,N/A,SimpleCNN,,8.993285254637401,,,,
+,classification,CIFAR100,42,FasterRCNN_ResNet50_FPN,Adam,N/A,ResNet18,,86.99737385114034,,,,
+,classification,CIFAR100,42,FasterRCNN_ResNet50_FPN,Adam,N/A,ResNet18,,117.34071139097213,,,,
+,classification,CIFAR100,42,FasterRCNN_ResNet50_FPN,Adam,N/A,0.3,,50,,,,
+,classification,CIFAR100,42,FasterRCNN_ResNet50_FPN,Adam,N/A,0.7,,50,,,,

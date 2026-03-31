@@ -61,3 +61,18 @@ logs/
 # === Игнорировать временные папки отчетов (из старых ДЗ) ===
 reports_*/
 test_output/
+
+# ML модели (большие файлы)
+best_model/
+*.pth
+*.bin
+*.pt
+*.h5
+*.onnx
+
+# Папки с результатами обучения
+results/
+checkpoints/
+
+# Временные файлы PyTorch
+*.dill

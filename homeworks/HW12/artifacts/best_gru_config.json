@@ -1,20 +1,26 @@
 {
-  "model_type": "GRU",
-  "input_size": 1,
+  "experiment_id": "R1",
+  "architecture": "GRU",
+  "input_size": 8,
   "hidden_size": 64,
   "num_layers": 2,
-  "dropout": 0.2,
+  "output_size": 1,
+  "window_size": 7,
   "batch_size": 32,
   "learning_rate": 0.001,
-  "window_size": 30,
-  "horizon": 1,
-  "epochs": 50,
+  "epochs": 100,
   "seed": 42,
-  "scaler": "StandardScaler",
-  "best_val_loss": 0.10159916023689287,
-  "test_metrics": {
-    "mae": 7.359244346618652,
-    "rmse": 9.26388497442277,
-    "mape": 4.712847709655762
-  }
+  "device": "cpu",
+  "scaler_type": "StandardScaler",
+  "feature_columns": [
+    "lag_1",
+    "lag_7",
+    "lag_14",
+    "rolling_mean_7",
+    "rolling_std_7",
+    "day_of_week",
+    "month",
+    "day_of_month"
+  ],
+  "timestamp": "2026-04-01T21:26:31.049742"
 }

@@ -1,0 +1,12 @@
+{
+  "V1": {
+    "precision": 0.4286,
+    "recall": 0.913,
+    "mean_iou": 0.7773
+  },
+  "V2": {
+    "precision": 0.5614,
+    "recall": 0.6957,
+    "mean_iou": 0.7819
+  }
+}

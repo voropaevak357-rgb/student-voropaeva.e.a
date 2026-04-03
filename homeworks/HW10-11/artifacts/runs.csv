@@ -1,11 +1,7 @@
 experiment_id,task,dataset,seed,model_summary,optimizer,lr,epochs_trained,best_val_accuracy,test_accuracy,precision,recall,mean_iou,notes
-,classification,CIFAR100,42,FasterRCNN_ResNet50_FPN,Adam,N/A,5,,46.83,,,,
-,classification,CIFAR100,42,FasterRCNN_ResNet50_FPN,Adam,N/A,1,,0.0392,,,,
-,classification,CIFAR100,42,FasterRCNN_ResNet50_FPN,Adam,N/A,5,,46.83,,,,
-,classification,CIFAR100,42,FasterRCNN_ResNet50_FPN,Adam,N/A,1,,0.0392,,,,
-,classification,CIFAR100,42,FasterRCNN_ResNet50_FPN,Adam,N/A,SimpleCNN,,7.498689544200897,,,,
-,classification,CIFAR100,42,FasterRCNN_ResNet50_FPN,Adam,N/A,SimpleCNN,,8.993285254637401,,,,
-,classification,CIFAR100,42,FasterRCNN_ResNet50_FPN,Adam,N/A,ResNet18,,86.99737385114034,,,,
-,classification,CIFAR100,42,FasterRCNN_ResNet50_FPN,Adam,N/A,ResNet18,,117.34071139097213,,,,
-,classification,CIFAR100,42,FasterRCNN_ResNet50_FPN,Adam,N/A,0.3,,50,,,,
-,classification,CIFAR100,42,FasterRCNN_ResNet50_FPN,Adam,N/A,0.7,,50,,,,
+C1,classification,CIFAR100,42,SimpleCNN,Adam,0.001,5,0.3175,,,,,
+C2,classification,CIFAR100,42,SimpleCNN,Adam,0.001,5,0.2978,,,,,
+C3,classification,CIFAR100,42,ResNet18_head,Adam,0.001,5,0.5472,,,,,
+C4,classification,CIFAR100,42,ResNet18_finetune,Adam,0.0005,5,0.6636,0.6615,,,,
+V1,detection,PascalVOC2007,42,FasterRCNN_ResNet50_FPN_V2,N/A,,0,,,0.4286,0.913,0.7773,score_threshold=0.3
+V2,detection,PascalVOC2007,42,FasterRCNN_ResNet50_FPN_V2,N/A,,0,,,0.5614,0.6957,0.7819,score_threshold=0.7

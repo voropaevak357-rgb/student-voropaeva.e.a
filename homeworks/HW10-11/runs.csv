@@ -1,7 +1,0 @@
-experiment_id,part_a_dataset,part_b_dataset,track,val_accuracy,test_accuracy,epoch,train_loss,val_loss
-Baseline_CNN_A_Ep1,CIFAR100,PascalVOC2007,classification_a,0.1556,,1.0,3.8236,3.5395
-Baseline_CNN_A_Ep2,CIFAR100,PascalVOC2007,classification_a,0.2199,,2.0,3.266,3.1818
-Baseline_CNN_A_Ep3,CIFAR100,PascalVOC2007,classification_a,0.2529,,3.0,2.9307,3.0131
-Baseline_CNN_A_Ep4,CIFAR100,PascalVOC2007,classification_a,0.2949,,4.0,2.6956,2.7892
-Baseline_CNN_A_Ep5,CIFAR100,PascalVOC2007,classification_a,0.3057,,5.0,2.5121,2.7223
-Baseline_Detector_B,CIFAR100,PascalVOC2007,detection_b,,0.4815,,,
